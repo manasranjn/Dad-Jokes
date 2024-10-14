@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #FEFAE0;
+    padding: 20px;
+}
+
+.container{
+    background-color: #D1E9F6;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px #1a1a1a, 0 6px 6px #010322;
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 800px;
+}
+h3{
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+.joke{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+.btn{
+    background-color: #9f68e0;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px #1a1a1a, 0 6px 6px #010322;
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:active{
+    transform: scale(0.95);
+}
